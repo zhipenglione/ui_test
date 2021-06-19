@@ -73,6 +73,12 @@ class Base_pages(unittest.TestCase):
     def get_title(cls):
         title=cls.driver.title
         return title
+
+    @classmethod
+    def get_text(cls,elemt):
+        text = elemt.text
+        return text
+
     @classmethod
     def get_time(cls,num):
         time.sleep(num)

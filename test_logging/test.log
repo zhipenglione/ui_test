@@ -1,0 +1,5 @@
+2021-06-18 11:49:52,812-LoggerTest.py-[line:59]-ERROR-LoggerTest-错误日志
+2021-06-18 11:49:52,812-LoggerTest.py-[line:60]-CRITICAL-LoggerTest-严重错误,提示消息
+2021-06-18 11:50:16,044-LoggerTest.py-[line:60]-CRITICAL-LoggerTest-严重错误,提示消息
+2021-06-18 11:50:26,694-LoggerTest.py-[line:59]-ERROR-LoggerTest-错误日志
+2021-06-18 11:50:26,694-LoggerTest.py-[line:60]-CRITICAL-LoggerTest-严重错误,提示消息

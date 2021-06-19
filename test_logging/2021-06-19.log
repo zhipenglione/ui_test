@@ -1,0 +1,41 @@
+2021-06-19 15:21:33,771 - WARNING : Function:[test_001_login], args:(<public.pages.TestLogin.Login_test testMethod=test_001_login>,), kwargs:{}
+2021-06-19 15:22:25,436 - WARNING : Function:[test_001_login], args:(<public.pages.TestLogin.Login_test testMethod=test_001_login>,), kwargs:{}
+2021-06-19 15:23:28,923 - WARNING : Function:[test_001_login], Result: None
+2021-06-19 15:46:02,595 - INFO : Function:[add], args:(1, 2), kwargs:{}
+2021-06-19 15:46:02,595 - DEBUG : Function:[add], Result: 3
+2021-06-19 15:46:16,720 - DEBUG : POST http://127.0.0.1:53803/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2021-06-19 15:46:16,756 - DEBUG : Starting new HTTP connection (1): 127.0.0.1:53803
+2021-06-19 15:46:17,525 - DEBUG : http://127.0.0.1:53803 "POST /session HTTP/1.1" 200 753
+2021-06-19 15:46:17,526 - DEBUG : Finished Request
+2021-06-19 15:46:17,527 - INFO : Function:[test_001_login], args:(<__main__.Login_test testMethod=test_001_login>,), kwargs:{}
+2021-06-19 15:46:17,527 - DEBUG : POST http://127.0.0.1:53803/session/e0b0dc39d6c83187affd029eab53fee0/url {"url": "http://192.168.0.107:8090/forum.php"}
+2021-06-19 15:47:20,749 - DEBUG : http://127.0.0.1:53803 "POST /session/e0b0dc39d6c83187affd029eab53fee0/url HTTP/1.1" 200 14
+2021-06-19 15:47:20,750 - DEBUG : Finished Request
+2021-06-19 15:47:20,751 - DEBUG : POST http://127.0.0.1:53803/session/e0b0dc39d6c83187affd029eab53fee0/element {"using": "css selector", "value": "[id=\"ls_username\"]"}
+2021-06-19 15:47:20,769 - DEBUG : http://127.0.0.1:53803 "POST /session/e0b0dc39d6c83187affd029eab53fee0/element HTTP/1.1" 200 88
+2021-06-19 15:47:20,770 - DEBUG : Finished Request
+2021-06-19 15:47:20,770 - DEBUG : POST http://127.0.0.1:53803/session/e0b0dc39d6c83187affd029eab53fee0/element/1be9a243-10b6-4914-b98a-3fe18d7783fe/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "1be9a243-10b6-4914-b98a-3fe18d7783fe"}
+2021-06-19 15:47:20,853 - DEBUG : http://127.0.0.1:53803 "POST /session/e0b0dc39d6c83187affd029eab53fee0/element/1be9a243-10b6-4914-b98a-3fe18d7783fe/value HTTP/1.1" 200 14
+2021-06-19 15:47:20,855 - DEBUG : Finished Request
+2021-06-19 15:47:20,855 - DEBUG : POST http://127.0.0.1:53803/session/e0b0dc39d6c83187affd029eab53fee0/element {"using": "css selector", "value": "[id=\"ls_password\"]"}
+2021-06-19 15:47:20,872 - DEBUG : http://127.0.0.1:53803 "POST /session/e0b0dc39d6c83187affd029eab53fee0/element HTTP/1.1" 200 88
+2021-06-19 15:47:20,872 - DEBUG : Finished Request
+2021-06-19 15:47:20,874 - DEBUG : POST http://127.0.0.1:53803/session/e0b0dc39d6c83187affd029eab53fee0/element/c2d22712-0db9-42e2-969b-ba378e71758e/value {"text": "123456", "value": ["1", "2", "3", "4", "5", "6"], "id": "c2d22712-0db9-42e2-969b-ba378e71758e"}
+2021-06-19 15:47:20,952 - DEBUG : http://127.0.0.1:53803 "POST /session/e0b0dc39d6c83187affd029eab53fee0/element/c2d22712-0db9-42e2-969b-ba378e71758e/value HTTP/1.1" 200 14
+2021-06-19 15:47:20,953 - DEBUG : Finished Request
+2021-06-19 15:47:20,953 - DEBUG : POST http://127.0.0.1:53803/session/e0b0dc39d6c83187affd029eab53fee0/element {"using": "xpath", "value": "//*[@id=\"lsform\"]/div/div/table/tbody/tr[2]/td[3]/button"}
+2021-06-19 15:47:20,973 - DEBUG : http://127.0.0.1:53803 "POST /session/e0b0dc39d6c83187affd029eab53fee0/element HTTP/1.1" 200 88
+2021-06-19 15:47:20,974 - DEBUG : Finished Request
+2021-06-19 15:47:20,974 - DEBUG : POST http://127.0.0.1:53803/session/e0b0dc39d6c83187affd029eab53fee0/element/4d32e32f-e5a5-4947-a454-c714bcdbe8de/click {"id": "4d32e32f-e5a5-4947-a454-c714bcdbe8de"}
+2021-06-19 15:47:21,028 - DEBUG : http://127.0.0.1:53803 "POST /session/e0b0dc39d6c83187affd029eab53fee0/element/4d32e32f-e5a5-4947-a454-c714bcdbe8de/click HTTP/1.1" 200 14
+2021-06-19 15:47:21,028 - DEBUG : Finished Request
+2021-06-19 15:47:21,029 - DEBUG : GET http://127.0.0.1:53803/session/e0b0dc39d6c83187affd029eab53fee0/title {}
+2021-06-19 15:47:21,037 - DEBUG : http://127.0.0.1:53803 "GET /session/e0b0dc39d6c83187affd029eab53fee0/title HTTP/1.1" 200 39
+2021-06-19 15:47:21,037 - DEBUG : Finished Request
+2021-06-19 15:47:21,037 - DEBUG : Function:[test_001_login], Result: None
+2021-06-19 15:47:23,040 - DEBUG : POST http://127.0.0.1:53803/session/e0b0dc39d6c83187affd029eab53fee0/element {"using": "css selector", "value": "[id=\"mn_forum\"]"}
+2021-06-19 15:47:42,290 - DEBUG : http://127.0.0.1:53803 "POST /session/e0b0dc39d6c83187affd029eab53fee0/element HTTP/1.1" 200 88
+2021-06-19 15:47:42,290 - DEBUG : Finished Request
+2021-06-19 15:47:42,290 - DEBUG : POST http://127.0.0.1:53803/session/e0b0dc39d6c83187affd029eab53fee0/element/3ca57d5c-2bf4-4542-81d7-9abef9d92cf1/click {"id": "3ca57d5c-2bf4-4542-81d7-9abef9d92cf1"}
+2021-06-19 15:48:45,497 - DEBUG : http://127.0.0.1:53803 "POST /session/e0b0dc39d6c83187affd029eab53fee0/element/3ca57d5c-2bf4-4542-81d7-9abef9d92cf1/click HTTP/1.1" 200 14
+2021-06-19 15:48:45,498 - DEBUG : Finished Request

@@ -10,6 +10,7 @@ import time
 import unittest
 from config.Config_path import report_path,project_path
 from HTMLTestRunner import HTMLTestRunner
+from public.utils.mail_new import Maile_test
 #获取报告
 now_time=time.strftime('%Y_%m_%d_%H_%M_%S')+'_ui_report.html'
 new_report_path=os.path.join(report_path,now_time)
@@ -26,4 +27,8 @@ def auto_ui():
     with open(new_report_path,'wb') as file_wb:
         runner=HTMLTestRunner(stream=file_wb,title='自动化用例报告',verbosity=2,description='小小自动化报告')
         runner.run(dis_value)
+def send_email():
+    email_test=Maile_test(new_report_path)
+    email_test.send_meail()
 auto_ui()
+# send_email()

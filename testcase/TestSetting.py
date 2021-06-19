@@ -24,3 +24,10 @@ class Test_setting(Base_pages):
         setting_value=Base_pages.find_element(pe.setting_value)
         Base_pages.get_click(setting_value)
 
+        #断言
+        element=Base_pages.find_element(pe.header_value)
+        # text_value=Base_pages.get_text(element)
+        # self.assertEqual(text_value,'头像')
+
+        self.assertEqual(element.text,'修改头像')
+        self.assertEqual(Base_pages.get_title(),'论坛 - Powered by Discuz!')

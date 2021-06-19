@@ -9,7 +9,7 @@
 import os
 
 #项目路径
-project_path=r'D:\resoure\class_git\ui_git\class_23_ui_frame'
+project_path=r'D:\class_project\pythonProject\class_23\class_23_ui_frame'
 
 #获取报告路径
 report_path=os.path.join(project_path,'report')
